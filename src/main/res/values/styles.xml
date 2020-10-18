@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	<style name="BottomDialogAnimation" parent="@android:style/Animation.Dialog">
+		<item name="android:windowEnterAnimation">@drawable/bottom_show_animation</item>
+		<item name="android:windowExitAnimation">@drawable/bottom_hide_animation</item></style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MyDialogButton">
+        <item name="android:backgroundTint">#FF007EFF</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
